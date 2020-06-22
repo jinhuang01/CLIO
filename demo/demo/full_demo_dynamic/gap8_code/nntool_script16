@@ -1,0 +1,9 @@
+set debug on
+adjust
+fusions
+set input_norm_func "x: (x - 128) / 128"
+set input_divisor 1
+set input_offset 0
+aquant -f 16 img_OUT0.ppm
+save_state
+gen -t -T tensors -M models model.c
