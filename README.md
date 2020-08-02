@@ -7,7 +7,7 @@ One of the key benefits of Clio is that it allows model compilation techniques t
 
 ![Overview of Clio](https://user-images.githubusercontent.com/32029515/89115694-41d6de80-d459-11ea-94de-79e8be453800.png)
 
-\myname{} is a model compilation technique that allows us to execute large state-of-art models over resource-constrained IoT networks while gracefully degrading performance in the face of uncertain wireless bandwidth. At the core of \myname{} is a joint IoT-cloud optimization technique for progressively transmitting intermediate results from a partitioned model in-order to deal with bandwidth variations.
+Clio is a model compilation technique that allows us to execute large state-of-art models over resource-constrained IoT networks while gracefully degrading performance in the face of uncertain wireless bandwidth. At the core of Clio is a joint IoT-cloud optimization technique for progressively transmitting intermediate results from a partitioned model in-order to deal with bandwidth variations.
 
 ## Progressive Slicing
 ![Progressive Slicing Example](https://user-images.githubusercontent.com/32029515/89115447-45b53180-d456-11ea-88df-51312a8c6592.png)
